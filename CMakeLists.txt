@@ -13,7 +13,7 @@
 # limitations under the License.
 
 cmake_minimum_required(VERSION 3.5)
-project(hobot_usb_cam)
+project(test_hobot_usb_cam)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -40,7 +40,7 @@ find_package(hbm_img_msgs REQUIRED)
 find_package(yaml_cpp_vendor REQUIRED)
 # find_package(v4l-utils)
 
-include_directories(include/hobot_usb_cam)
+include_directories(include/test_hobot_usb_cam)
 
 
 add_executable(${PROJECT_NAME}
